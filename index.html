@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdul-Muizz — Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio of Your Name — designer, builder, and problem solver."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,520;9..144,640&family=Outfit:wght@340;460;560&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="pictures/logo.svg?v=2" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/styles.css?v=16" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="logo" href="#top">
+        <img src="pictures/logo.svg?v=2" alt="" width="42" height="42" />
+        Abdul-Muizz
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Menu</span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <!-- <p class="eyebrow"><span class="dot"></span> Available for new work</p> -->
+          <!-- <h1>Your Name<br /><em>builds things people use.</em></h1> -->
+          <img
+            class="portrait"
+            src="pictures/profile.jpg"
+            alt="Abdul-Muizz"
+            width="640"
+            height="640"
+          />
+          <p class="lede role-line">
+            <span class="role-window">
+              <span class="role" id="role">Programmer</span>
+            </span>
+          </p>
+        </div>
+      </section>
+
+      <section class="band" id="about">
+        <div class="band-head">
+          <h2>About</h2>
+        </div>
+        <div class="about-grid">
+          <p class="about-lead">
+            I am Abdul-Muizz, an AI Engineer with a Master's in Computer Science with a strong focus on backend integration, data pipelines and agentic AI applications. I enjoy researching and learning about the latest advancements in AI and how it is changing different disciplines. 
+            At work, I build scalable applications that combine LLMs with real world data stored in databases like BigQuery and REST APIs to automate business logic. In my free time, I like drawing, exercising, and hanging out with my friends.
+          </p>
+          <ul class="facts">
+            <li><span>Focus</span> Agentic AI and data pipelines</li>
+            <li><span>Education</span> M.S. Computer Science, UW</li>
+            <li><span>Also studied</span> Computer Engineering</li>
+            <li><span>Off hours</span> Drawing and time with friends</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="band" id="skills">
+        <div class="band-head">
+          <h2>Skills</h2>
+        </div>
+        <ul class="skills">
+          <li>Python</li>
+          <li>Java</li>
+          <li>SQL</li>
+          <li>GCP</li>
+          <li>LLMs</li>
+          <li>Scikit-Learn</li>
+          <li>Tensorflow</li>
+          <li>Pillow</li>
+          <li>Tableau</li>
+          <li>Google BigQuery</li>
+          <li>REST APIs</li>
+          <li>Docker</li>
+        </ul>
+      </section>
+
+      <section class="band" id="work">
+        <div class="band-head">
+          <h2>Projects</h2>
+        </div>
+        <div class="projects">
+          <article class="project project-feature">
+            <div class="project-visual">
+              <span>01</span>
+            </div>
+            <div class="project-copy">
+              <p class="project-meta">2025 · Perfect Stock LLC</p>
+              <h3>FBA Recoup</h3>
+              <p>
+                Amazon FBA profit-recovery platform. Python and BigQuery SQL
+                analytics across seller tables for fee realignment and ad-waste
+                detection.
+              </p>
+              <p class="tags">Python · BigQuery · SQL</p>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project-visual alt">
+              <span>02</span>
+            </div>
+            <div class="project-copy">
+              <p class="project-meta">2025 · Perfect Stock LLC</p>
+              <h3>Flask AI SQL assistant</h3>
+              <p>
+                A Flask app that reads SQLite and BigQuery schemas, turns a
+                natural-language question into SQL, and runs the query so the
+                result is live data.
+              </p>
+              <p class="tags">Python · Flask · BigQuery</p>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project-visual alt-2">
+              <span>03</span>
+            </div>
+            <div class="project-copy">
+              <p class="project-meta">2023 — 2024 · Capstone Project</p>
+              <h3>Toxic emote detection</h3>
+              <p>
+                Classified 80,000+ Twitch comments with a RoBERTa toxicity model,
+                scored emotes, and extended the search to other channels with
+                Word2Vec.
+              </p>
+              <p class="tags">Python · NLP · RoBERTa</p>
+              <a
+                class="project-link"
+                href="https://github.com/Abdul-Muizz545/DetectingToxicEmotesAcrossTwitchChannels"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <p>Let's connect here!</p>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/abdul-muizz-imtiaz" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V24h-4V8.5zM8.5 8.5h3.8v2.1h.05c.53-1 1.84-2.1 3.79-2.1 4.05 0 4.8 2.67 4.8 6.14V24h-4v-7.7c0-1.84-.03-4.2-2.56-4.2-2.56 0-2.95 2-2.95 4.06V24h-4V8.5z"/>
+            </svg>
+          </a>
+          <a href="https://github.com/Abdul-Muizz545" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.82.58A12 12 0 0 0 12 .5z"/>
+            </svg>
+          </a>
+          <a href="mailto:amimtiaz3@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M2 5.5A2.5 2.5 0 0 1 4.5 3h15A2.5 2.5 0 0 1 22 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 18.5v-13zm2.2.3 7.2 5.05c.36.25.84.25 1.2 0L19.8 5.8a1 1 0 0 0-.3-.3H4.5a1 1 0 0 0-.3.3zM20.5 8.1l-6.55 4.6a3 3 0 0 1-3.4 0L4 8.1V18.5c0 .28.22.5.5.5h15c.28 0 .5-.22.5-.5V8.1z"/>
+            </svg>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Abdul-Muizz</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="js/main.js?v=4"></script>
+  </body>
+</html>
